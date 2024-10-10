@@ -1,0 +1,89 @@
+.about-container {
+    font-family: 'Arial', sans-serif;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Video Section */
+.video-section {
+    position: relative;
+    overflow: hidden;
+    height: 400px; /* Adjust height as needed */
+    margin-bottom: 30px; /* Space below the video */
+    width: 100vw; /* Full viewport width */
+    left: 50%; /* Center the video */
+    right: 50%; /* Center the video */
+    margin-left: -50vw; /* Shift left to align */
+    margin-right: -50vw; /* Shift right to align */
+}
+
+.background-video {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Cover the section */
+}
+
+.video-overlay h1{
+    position: absolute; /* Position it relative to the video */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for exact centering */
+    color: white; /* Text color */
+    font-size: 3rem; /* Adjust font size as needed */
+    font-family: 'Dancing Script', cursive; /* Cursive font */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Shadow for better visibility */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #592c12;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.about-image {
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.about-info {
+    flex: 1;
+    text-align: left;
+}
+
+.about-info h2 {
+    font-size: 2rem;
+    color: #592c12;
+    margin-bottom: 10px;
+}
+
+.about-info p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image {
+        width: 80%; /* Adjust width for mobile */
+        margin: 0 auto 20px;
+        margin-right: 0; /* Reset right margin */
+    }
+}

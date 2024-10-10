@@ -1,0 +1,90 @@
+/* General styles for the blog page */
+.blog-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.blog-title {
+    font-size: 3rem;
+    color: #592c12;
+    margin-bottom: 40px;
+}
+
+/* Blog list container */
+.blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Each blog post card */
+.blog-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.blog-post:hover {
+    transform: translateY(-10px); /* Lift the card when hovered */
+}
+
+/* Blog post image */
+.blog-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Blog content */
+.blog-content {
+    padding: 20px;
+}
+
+.blog-post-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-date {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.blog-excerpt {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Read more button */
+.read-more {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #592c12;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.read-more:hover {
+    background-color: #d35400;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blog-post {
+        width: 100%;
+    }
+}

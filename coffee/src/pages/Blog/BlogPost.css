@@ -1,0 +1,7 @@
+/* BlogPost.css */
+.blog-post {
+    margin: 20px;
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}

@@ -1,0 +1,99 @@
+.subscribe-container {
+    font-family: 'Arial', sans-serif;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+}
+
+.subscribe-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.top-section {
+    flex-direction: row;
+    text-align: left;
+}
+
+.subscribe-image {
+    width: 400px;
+    height: auto;
+    margin-right: 40px;
+}
+
+.subscribe-text {
+    max-width: 600px;
+}
+
+.subscribe-text h2 {
+    font-size: 2rem;
+    color: #592c12;
+    margin-bottom: 20px;
+}
+
+.subscribe-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #4a4a4a;
+}
+
+/* Styling for subscription options */
+.subscribe-option {
+    flex: 1;
+    padding: 30px 20px;
+}
+
+.subscribe-option h3 {
+    font-size: 1.8rem;
+    color: #592c12;
+    margin-bottom: 20px;
+}
+
+.subscribe-option p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.subscribe-button {
+    background-color: #592c12;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #80461b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .top-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .subscribe-image {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .subscribe-option {
+        padding: 20px 10px;
+    }
+
+    .subscribe-button {
+        font-size: 0.9rem;
+    }
+}

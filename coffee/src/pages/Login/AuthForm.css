@@ -1,0 +1,90 @@
+/* AuthForm.css */
+.auth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/
+  }
+  
+  .auth-box {
+  background:#c5b5a6;
+    padding: 30px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #5a3b2e;
+    position: relative;
+    text-align: center;
+  }
+  
+  .auth-header {
+    margin-bottom: 20px;
+  }
+  
+  .auth-header h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color:#008080;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #5a3b2e;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #4a5b6a;
+    background-color: #eae0d5;
+    color: #cdd1d5;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #3b3a30 /* Green focus border */
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: #592c12; /* Nature-inspired green button */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #57341e;
+  }
+  
+  .toggle-link {
+    margin-top: 20px;
+  }
+  
+  .toggle-link p {
+    font-size: 14px;
+    color: #5a3b2e;
+  }
+  
+  .toggle-link span {
+    color: #008080;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

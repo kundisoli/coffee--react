@@ -1,0 +1,5 @@
+body{background-color: rgb(245, 235, 221);
+margin-top:10px;}
+.content-container {
+    margin-top: 100px; /* Adds space below the navbar globally */
+}

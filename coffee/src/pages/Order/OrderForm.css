@@ -1,0 +1,86 @@
+/* OrderForm.css */
+.order-form-container {
+ 
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #c5b5a6;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-form h2 {
+ 
+  color: #333;
+  margin-bottom: 5px;
+ 
+}
+h2{
+  font-family: "Qwitcher Grypen", serif;
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+  color:#008080;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 20px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #592c12;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #592c12;
+}
+
+@media (max-width: 768px) {
+  .order-form-container {
+    padding: 15px;
+  }
+
+  .order-form h2 {
+    font-size: 24px;
+    
+  }
+
+  .submit-btn {
+    font-size: 14px;
+  }
+}
